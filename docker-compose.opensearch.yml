@@ -14,10 +14,10 @@ services:
       - plugins.security.disabled=true
       - "ES_JAVA_OPTS=-Xms1g -Xmx1g"
       - "OPENSEARCH_INITIAL_ADMIN_PASSWORD=YenteIns3cureDefault"
-    ulimits:
-      memlock:
-        soft: -1
-        hard: -1
+    ##ulimits:
+     ## memlock:
+       ## soft: -1
+        ##hard: -1
     volumes:
       - opensearch-data:/usr/share/opensearch/data
     deploy:
