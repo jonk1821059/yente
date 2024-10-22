@@ -4,7 +4,8 @@
 
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
-tasks:
-  - init: make
+#tasks:
+ # - init: make
 
-
+image:
+  file: .gitpod.Dockerfile
